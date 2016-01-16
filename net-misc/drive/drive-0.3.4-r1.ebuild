@@ -6,7 +6,7 @@
 # $Id$
 
 EAPI=5
-EGO_PN="github.com/odeke-em/${PN}"
+EGO_PN="github.com/odeke-em/drive/cmd/drive"
 
 inherit golang-vcs golang-build
 
@@ -18,9 +18,8 @@ SLOT="0"
 KEYWORDS="~amd64"
 IUSE=""
 
-DEPEND=">=dev-lang/go-1.2
+DEPEND="	>=dev-lang/go-1.2
 		dev-go/go-text
 		dev-vcs/git
-		dev-vcs/mercurial
-		dev-go/command"
+		dev-vcs/mercurial"
 RDEPEND="${DEPEND}"
