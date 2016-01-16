@@ -21,7 +21,7 @@ IUSE=""
 DEPEND="	>=dev-lang/go-1.2
 		dev-go/go-text
 		dev-vcs/git
-                dev-go/bolt
+                dev-go/boltdb
                 dev-go/pb
                 dev-go/go-isatty
                 dev-go/cache
@@ -31,7 +31,7 @@ DEPEND="	>=dev-lang/go-1.2
                 dev-go/log
                 dev-go/meddler
                 dev-go/pretty-words
-                dev-go/semalin
+                dev-go/semalim
                 dev-go/statos"
 
 RDEPEND="${DEPEND}"

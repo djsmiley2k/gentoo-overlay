@@ -6,7 +6,7 @@
 # $Id$
 
 EAPI=5
-EGO_PN="https://github.com/cheggaaa/pb"
+EGO_PN="github.com/cheggaaa/pb"
 
 inherit golang-vcs golang-build
 
