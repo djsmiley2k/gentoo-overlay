@@ -21,5 +21,17 @@ IUSE=""
 DEPEND="	>=dev-lang/go-1.2
 		dev-go/go-text
 		dev-vcs/git
-		dev-vcs/mercurial"
+                dev-go/bolt
+                dev-go/pb
+                dev-go/go-isatty
+                dev-go/cache
+                dev-go/cli-spinner
+                dev-go/exponential-backoff
+                dev-go/extractor
+                dev-go/log
+                dev-go/meddler
+                dev-go/pretty-words
+                dev-go/semalin
+                dev-go/statos"
+
 RDEPEND="${DEPEND}"
