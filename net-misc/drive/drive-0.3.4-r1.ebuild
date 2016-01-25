@@ -6,7 +6,7 @@
 # $Id$
 
 EAPI=5
-EGO_PN="github.com/odeke-em/drive/cmd/drive"
+EGO_PN="github.com/odeke-em/drive/drive-gen"
 
 inherit golang-vcs golang-build
 
