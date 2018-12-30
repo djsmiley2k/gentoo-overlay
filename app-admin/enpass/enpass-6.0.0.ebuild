@@ -14,12 +14,15 @@ KEYWORDS="amd64"
 
 inherit unpacker
 
+RDEPEND="x11-libs/libXScrnSaver
+sys-process/lsof"
+
 S="${WORKDIR}"
 
-#src_unpack() {
-# unpack_deb ./enpass_6.0.0.230_amd64.deb
-#}
-
 src_install() {
-insinto /; doins -r usr/; doins -r opt/
+insinto /;
+
+doins -r usr/;
+
+doins -r opt/
 }
