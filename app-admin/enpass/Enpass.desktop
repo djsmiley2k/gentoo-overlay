@@ -1,8 +1,0 @@
-[Desktop Entry]
-Type=Application
-Name=Enpass
-GenericName=Enpass Password Manager
-Icon=/home/tim/Enpass/enpass.png
-Terminal=false
-Exec=/opt/enpass/Enpass %U
-MimeType=x-scheme-handler/enpass;x-scheme-handler/enpassextension;x-scheme-handler/enpassauth;
