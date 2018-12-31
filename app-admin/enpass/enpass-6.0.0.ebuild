@@ -22,10 +22,16 @@ S="${WORKDIR}"
 src_install() {
 insinto /;
 
+# install in /opt/enpass
+ENPASS_HOME=/opt/enpass
+
 doins -r usr/;
 
 doins -r opt/
 
-fperms 755 /opt/enpass/Enpass
-dosym /opt/enpass/Enpass /usr/bin/enpass
+fperms +x ${ENPASS_HOME}/Enpass
+fperms +x ${ENPASS_HOME}/importer_enpass
+
+dosym ${ENPASS_HOME}/Enpass /usr/bin/enpass
 }
+
