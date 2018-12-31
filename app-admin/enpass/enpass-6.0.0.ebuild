@@ -25,4 +25,7 @@ insinto /;
 doins -r usr/;
 
 doins -r opt/
+
+fperms 755 /opt/enpass/Enpass
+dosym /opt/enpass/Enpass /usr/bin/enpass
 }
