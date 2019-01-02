@@ -1,6 +1,6 @@
 <repositories version="1.0">
 <repo priority="50" quality="experimental" status="unofficial">
-<name>n4cer</name>
+<name>djsmiley2k</name>
 <description>djsmiley2k's overlay for sharing ebuilds</description>
 <homepage>https://github.com/djsmiley2k/gentoo-overlay</homepage>
 <owner>
